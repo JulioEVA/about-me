@@ -27,10 +27,22 @@ a {
 
 .header {
   height: 100vh;
-  /* add missing declarations */
+  font-size: 140px;
+  background-image: url(./images/background-image.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-/* add a CSS rule for the page title here */
+.header-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  max-width: 1240px;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .overlay {
   width: 100%;
@@ -43,7 +55,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* add missing declarations */
+  max-width: 790px;
+  margin: 100px auto 50px;
 }
 
 /* add CSS rules for cards and their content here */
